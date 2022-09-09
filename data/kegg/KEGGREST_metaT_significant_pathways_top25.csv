@@ -1,0 +1,273 @@
+kegg,pathways,GM1a,GM1b,GM1c,GM4a,GM4b,GM4c
+K12240,Biosynthesis of siderophore group nonribosomal peptides,10992,8025,5216,NA,NA,NA
+K12240,Biosynthesis of siderophore group nonribosomal peptides,NA,NA,NA,11,4,7
+K12185,Endocytosis,7845,5144,2999,NA,NA,NA
+K12185,Endocytosis,NA,NA,NA,15,14,8
+K01225,Starch and sucrose metabolism,33925,8054,8047,NA,NA,NA
+K01225,Starch and sucrose metabolism,NA,NA,NA,10,12,0
+K19478,Congenital disorders of glycosylation type I,7785,5174,7117,NA,NA,NA
+K19478,Congenital disorders of glycosylation type I,NA,NA,NA,4,0,0
+K16149,Starch and sucrose metabolism,0,1,0,NA,NA,NA
+K16149,Starch and sucrose metabolism,NA,NA,NA,1376,2971,695
+K19310,ABC transporters,61032,49040,54353,NA,NA,NA
+K19310,ABC transporters,NA,NA,NA,4699,3554,2048
+K05088,MAPK signaling pathway - fly,768,288,219,NA,NA,NA
+K05088,MAPK signaling pathway - fly,NA,NA,NA,9480,7266,4081
+K01099,Inositol phosphate metabolism,12496,5530,3902,NA,NA,NA
+K01099,Inositol phosphate metabolism,NA,NA,NA,11,11,0
+K02535,Lipopolysaccharide biosynthesis,4,2,7,NA,NA,NA
+K02535,Lipopolysaccharide biosynthesis,NA,NA,NA,558,853,762
+K15043,Nucleocytoplasmic transport,10901,3419,3878,NA,NA,NA
+K15043,Nucleocytoplasmic transport,NA,NA,NA,19,3,7
+K03934,Oxidative phosphorylation,7901,4222,1792,NA,NA,NA
+K03934,Oxidative phosphorylation,NA,NA,NA,0,0,0
+K09476,beta-Lactam resistance,0,0,0,NA,NA,NA
+K09476,beta-Lactam resistance,NA,NA,NA,1263,5972,207
+K00510,Porphyrin metabolism,0,6559,600,NA,NA,NA
+K00510,Porphyrin metabolism,NA,NA,NA,0,0,0
+K13644,Phosphonate and phosphinate metabolism,14,82,25,NA,NA,NA
+K13644,Phosphonate and phosphinate metabolism,NA,NA,NA,1641,2263,812
+K08726,Arachidonic acid metabolism,2843,2066,3067,NA,NA,NA
+K08726,Arachidonic acid metabolism,NA,NA,NA,1,5,0
+K14293,Nucleocytoplasmic transport,1052,2743,22852,NA,NA,NA
+K14293,Nucleocytoplasmic transport,NA,NA,NA,4,4,0
+K08089,Sphingolipid signaling pathway,0,0,0,NA,NA,NA
+K08089,Sphingolipid signaling pathway,NA,NA,NA,274,5666,333
+K11757,Hepatocellular carcinoma,16810,3496,2569,NA,NA,NA
+K11757,Hepatocellular carcinoma,NA,NA,NA,7,0,5
+K13711,Inositol phosphate metabolism,1101,6871,3305,NA,NA,NA
+K13711,Inositol phosphate metabolism,NA,NA,NA,1,0,0
+K04975,Salivary secretion,0,5465,251,NA,NA,NA
+K04975,Salivary secretion,NA,NA,NA,0,0,0
+K10160,NF-kappa B signaling pathway,5242,470,13612,NA,NA,NA
+K10160,NF-kappa B signaling pathway,NA,NA,NA,0,1,0
+K10940,Biofilm formation - Vibrio cholerae,2774,2136,1428,NA,NA,NA
+K10940,Biofilm formation - Vibrio cholerae,NA,NA,NA,0,0,0
+K16675,Hippo signaling pathway - fly,1040,3807,14713,NA,NA,NA
+K16675,Hippo signaling pathway - fly,NA,NA,NA,2,0,4
+K04589,Neuroactive ligand-receptor interaction,21647,5381,206,NA,NA,NA
+K04589,Neuroactive ligand-receptor interaction,NA,NA,NA,1,0,0
+K09448,MAPK signaling pathway - yeast,6013,2128,1022,NA,NA,NA
+K09448,MAPK signaling pathway - yeast,NA,NA,NA,0,1,0
+K09101,Estrogen signaling pathway,15403,341,6635,NA,NA,NA
+K09101,Estrogen signaling pathway,NA,NA,NA,5,6,0
+K02633,Circadian rhythm,17872,5398,481,NA,NA,NA
+K02633,Circadian rhythm,NA,NA,NA,9,3,0
+K11989,Hedgehog signaling pathway,3589,2819,1195,NA,NA,NA
+K11989,Hedgehog signaling pathway,NA,NA,NA,3,0,3
+K02393,Flagellar assembly,0,0,0,NA,NA,NA
+K02393,Flagellar assembly,NA,NA,NA,197,536,1434
+K12816,Spliceosome,5048,1497,1917,NA,NA,NA
+K12816,Spliceosome,NA,NA,NA,3,0,0
+K02288,Photosynthesis - antenna proteins,1,0,0,NA,NA,NA
+K02288,Photosynthesis - antenna proteins,NA,NA,NA,918,97,1622
+K02394,Flagellar assembly,0,0,0,NA,NA,NA
+K02394,Flagellar assembly,NA,NA,NA,2126,1054,53
+K05099,EGFR tyrosine kinase inhibitor resistance,2108,3975,30277,NA,NA,NA
+K05099,EGFR tyrosine kinase inhibitor resistance,NA,NA,NA,21,14,0
+K14987,Two-component system,70,53,73,NA,NA,NA
+K14987,Two-component system,NA,NA,NA,757,921,431
+K08874,Human T-cell leukemia virus 1 infection,2263,2550,3277,NA,NA,NA
+K08874,Human T-cell leukemia virus 1 infection,NA,NA,NA,13,4,0
+K10630,Necroptosis,9253,2684,6103,NA,NA,NA
+K10630,Necroptosis,NA,NA,NA,1,16,0
+K07326,Pertussis,0,4,3,NA,NA,NA
+K07326,Pertussis,NA,NA,NA,514,425,380
+K00405,Oxidative phosphorylation,0,0,0,NA,NA,NA
+K00405,Oxidative phosphorylation,NA,NA,NA,566,1994,78
+K04570,EGFR tyrosine kinase inhibitor resistance,4568,1629,714,NA,NA,NA
+K04570,EGFR tyrosine kinase inhibitor resistance,NA,NA,NA,0,0,0
+K10213,Pyrimidine metabolism,40,92,42,NA,NA,NA
+K10213,Pyrimidine metabolism,NA,NA,NA,469,1741,1814
+K00795,Terpenoid backbone biosynthesis,10,5,14,NA,NA,NA
+K00795,Terpenoid backbone biosynthesis,NA,NA,NA,20,5403,1751
+K01795,Fructose and mannose metabolism,2752,1286,1120,NA,NA,NA
+K01795,Fructose and mannose metabolism,NA,NA,NA,0,0,0
+K03065,Proteasome,3739,3305,3027,NA,NA,NA
+K03065,Proteasome,NA,NA,NA,14,17,0
+K04390,Platinum drug resistance,22271,18,13317,NA,NA,NA
+K04390,Platinum drug resistance,NA,NA,NA,2,0,0
+K14290,Ribosome biogenesis in eukaryotes,6915,623,1304,NA,NA,NA
+K14290,Ribosome biogenesis in eukaryotes,NA,NA,NA,0,1,0
+K01848,Valine,0,0,1,NA,NA,NA
+K01848,Valine,NA,NA,NA,560,1477,74
+K01231,N-Glycan biosynthesis,5980,2203,221,NA,NA,NA
+K01231,N-Glycan biosynthesis,NA,NA,NA,2,1,0
+K01108,Inositol phosphate metabolism,23822,660,1340,NA,NA,NA
+K01108,Inositol phosphate metabolism,NA,NA,NA,6,10,0
+K17079,Spinocerebellar ataxia,6221,342,2002,NA,NA,NA
+K17079,Spinocerebellar ataxia,NA,NA,NA,4,3,0
+K06645,Cell cycle,7975,3991,262,NA,NA,NA
+K06645,Cell cycle,NA,NA,NA,3,0,0
+K05113,Axon guidance,3875,632,1639,NA,NA,NA
+K05113,Axon guidance,NA,NA,NA,3,5,0
+K04721,Cytokine-cytokine receptor interaction,4355,821,810,NA,NA,NA
+K04721,Cytokine-cytokine receptor interaction,NA,NA,NA,0,0,0
+K18985,Bacterial invasion of epithelial cells,1574,671,4178,NA,NA,NA
+K18985,Bacterial invasion of epithelial cells,NA,NA,NA,2,0,0
+K12495,Endocytosis,8142,948,5360,NA,NA,NA
+K12495,Endocytosis,NA,NA,NA,9,0,0
+K00185,Sulfur metabolism,0,0,1,NA,NA,NA
+K00185,Sulfur metabolism,NA,NA,NA,637,902,58
+K00021,Terpenoid backbone biosynthesis,15419,24359,2230,NA,NA,NA
+K00021,Terpenoid backbone biosynthesis,NA,NA,NA,53,4,0
+K17943,Spinocerebellar ataxia,256,1337,13665,NA,NA,NA
+K17943,Spinocerebellar ataxia,NA,NA,NA,3,0,0
+K06726,ABC transporters,4515,3054,1207,NA,NA,NA
+K06726,ABC transporters,NA,NA,NA,47,55,20
+K09949,Lipopolysaccharide biosynthesis,0,0,0,NA,NA,NA
+K09949,Lipopolysaccharide biosynthesis,NA,NA,NA,831,408,110
+K00404,Oxidative phosphorylation,0,0,0,NA,NA,NA
+K00404,Oxidative phosphorylation,NA,NA,NA,601,591,103
+K13761,Purine metabolism,311,513,365,NA,NA,NA
+K13761,Purine metabolism,NA,NA,NA,1845,1427,1272
+K05016,Osteopetrosis,3219,530,1190,NA,NA,NA
+K05016,Osteopetrosis,NA,NA,NA,1,0,0
+K08052,EGFR tyrosine kinase inhibitor resistance,1845,17886,7733,NA,NA,NA
+K08052,EGFR tyrosine kinase inhibitor resistance,NA,NA,NA,82,16,2
+K05727,Syndromic neurodevelopmental disorder,1868,16872,20,NA,NA,NA
+K05727,Syndromic neurodevelopmental disorder,NA,NA,NA,0,0,0
+K12855,Spliceosome,16543,4920,19,NA,NA,NA
+K12855,Spliceosome,NA,NA,NA,6,7,1
+K08601,MAPK signaling pathway - fly,4743,1553,183,NA,NA,NA
+K08601,MAPK signaling pathway - fly,NA,NA,NA,2,2,0
+K04352,MAPK signaling pathway,327,3686,1430,NA,NA,NA
+K04352,MAPK signaling pathway,NA,NA,NA,0,0,0
+K00311,Glutaric acidemia,2255,1723,1906,NA,NA,NA
+K00311,Glutaric acidemia,NA,NA,NA,9,0,1
+K07677,Two-component system,37,10,37,NA,NA,NA
+K07677,Two-component system,NA,NA,NA,906,400,514
+K12852,Spliceosome,1030,1091,1107,NA,NA,NA
+K12852,Spliceosome,NA,NA,NA,1,0,0
+K11179,Sulfur relay system,0,0,0,NA,NA,NA
+K11179,Sulfur relay system,NA,NA,NA,189,456,323
+K15374,GABAergic synapse,1428,1770,3409,NA,NA,NA
+K15374,GABAergic synapse,NA,NA,NA,6,0,0
+K16919,ABC transporters,40901,45394,31016,NA,NA,NA
+K16919,ABC transporters,NA,NA,NA,1282,2789,365
+K00441,Methane metabolism,9377,11915,7612,NA,NA,NA
+K00441,Methane metabolism,NA,NA,NA,18036,22702,22133
+K04261,Neuroactive ligand-receptor interaction,1879,1349,482,NA,NA,NA
+K04261,Neuroactive ligand-receptor interaction,NA,NA,NA,4,3,0
+K05677,ABC transporters,3673,1059,3719,NA,NA,NA
+K05677,ABC transporters,NA,NA,NA,8,0,0
+K11903,Biofilm formation - Pseudomonas aeruginosa,0,0,0,NA,NA,NA
+K11903,Biofilm formation - Pseudomonas aeruginosa,NA,NA,NA,296,1244,48
+K02332,Mitophagy - yeast,2523,427,1615,NA,NA,NA
+K02332,Mitophagy - yeast,NA,NA,NA,2,0,0
+K07209,Antifolate resistance,1580,139,4183,NA,NA,NA
+K07209,Antifolate resistance,NA,NA,NA,0,0,0
+K16619,Inositol phosphate metabolism,3209,664,470,NA,NA,NA
+K16619,Inositol phosphate metabolism,NA,NA,NA,0,0,0
+K04670,Cytokine-cytokine receptor interaction,2478,21,11577,NA,NA,NA
+K04670,Cytokine-cytokine receptor interaction,NA,NA,NA,0,2,0
+K11067,Arginine biosynthesis,3071,6849,21,NA,NA,NA
+K11067,Arginine biosynthesis,NA,NA,NA,2,2,0
+K10534,Nitrogen metabolism,6702,1343,3791,NA,NA,NA
+K10534,Nitrogen metabolism,NA,NA,NA,26,15,0
+K18674,Amino sugar and nucleotide sugar metabolism,2170,3011,2208,NA,NA,NA
+K18674,Amino sugar and nucleotide sugar metabolism,NA,NA,NA,0,8,0
+K03851,Taurine and hypotaurine metabolism,0,0,0,NA,NA,NA
+K03851,Taurine and hypotaurine metabolism,NA,NA,NA,134,353,377
+K12301,Lysosome,2015,571,495,NA,NA,NA
+K12301,Lysosome,NA,NA,NA,5,5,2
+K04419,MAPK signaling pathway,4171,223,2868,NA,NA,NA
+K04419,MAPK signaling pathway,NA,NA,NA,17,6,3
+K10380,Toll and Imd signaling pathway,18232,858,2294,NA,NA,NA
+K10380,Toll and Imd signaling pathway,NA,NA,NA,7,54,8
+K03935,Oxidative phosphorylation,1624,273,2999,NA,NA,NA
+K03935,Oxidative phosphorylation,NA,NA,NA,10,4,4
+K10233,ABC transporters,0,7,0,NA,NA,NA
+K10233,ABC transporters,NA,NA,NA,2169,168,404
+K15657,Quorum sensing,9,8,0,NA,NA,NA
+K15657,Quorum sensing,NA,NA,NA,476,340,519
+K11826,Endocytosis,9211,365,7152,NA,NA,NA
+K11826,Endocytosis,NA,NA,NA,61,26,11
+K04825,Taste transduction,13,8877,1254,NA,NA,NA
+K04825,Taste transduction,NA,NA,NA,1,1,0
+K18436,Purine metabolism,6065,84,3883,NA,NA,NA
+K18436,Purine metabolism,NA,NA,NA,10,10,1
+K00836,Glycine,199,253,107,NA,NA,NA
+K00836,Glycine,NA,NA,NA,2583,1060,457
+K01818,Pentose and glucuronate interconversions,11257,13144,8849,NA,NA,NA
+K01818,Pentose and glucuronate interconversions,NA,NA,NA,14217,16853,7885
+K04571,Protein processing in endoplasmic reticulum,2135,6511,16,NA,NA,NA
+K04571,Protein processing in endoplasmic reticulum,NA,NA,NA,0,0,0
+K03515,Fanconi anemia pathway,11,741,10208,NA,NA,NA
+K03515,Fanconi anemia pathway,NA,NA,NA,1,2,0
+K00591,Ubiquinone and other terpenoid-quinone biosynthesis,17,13,7,NA,NA,NA
+K00591,Ubiquinone and other terpenoid-quinone biosynthesis,NA,NA,NA,694,180,146
+K10536,Arginine and proline metabolism,5421,5804,5366,NA,NA,NA
+K10536,Arginine and proline metabolism,NA,NA,NA,7186,7984,3943
+K13247,Pentose and glucuronate interconversions,4234,58,23637,NA,NA,NA
+K13247,Pentose and glucuronate interconversions,NA,NA,NA,6,20,0
+K03010,RNA polymerase,12946,650,9,NA,NA,NA
+K03010,RNA polymerase,NA,NA,NA,0,0,1
+K13239,Fatty acid degradation,1744,701,562,NA,NA,NA
+K13239,Fatty acid degradation,NA,NA,NA,0,0,0
+K02386,Flagellar assembly,9,9,1,NA,NA,NA
+K02386,Flagellar assembly,NA,NA,NA,347,490,108
+K04073,Phenylalanine metabolism,1165,709,561,NA,NA,NA
+K04073,Phenylalanine metabolism,NA,NA,NA,3,1,0
+K10111,ABC transporters,10978,1629,52,NA,NA,NA
+K10111,ABC transporters,NA,NA,NA,0,4,0
+K18903,Multidrug resistance,0,0,0,NA,NA,NA
+K18903,Multidrug resistance,NA,NA,NA,10,2399,48
+K03165,Homologous recombination,20,700,7353,NA,NA,NA
+K03165,Homologous recombination,NA,NA,NA,0,0,0
+K05653,ABC transporters,5854,3577,7,NA,NA,NA
+K05653,ABC transporters,NA,NA,NA,3,1,0
+K01672,Nitrogen metabolism,575,130,4038,NA,NA,NA
+K01672,Nitrogen metabolism,NA,NA,NA,1,0,0
+K18148,beta-Lactam resistance,6,11,5,NA,NA,NA
+K18148,beta-Lactam resistance,NA,NA,NA,2279,8,324
+K14621,Glycerophospholipid metabolism,2923,1770,63,NA,NA,NA
+K14621,Glycerophospholipid metabolism,NA,NA,NA,0,0,0
+K13699,Regulation of lipolysis in adipocytes,316,4577,429,NA,NA,NA
+K13699,Regulation of lipolysis in adipocytes,NA,NA,NA,5,2,0
+K01203,Galactose metabolism,10445,872,3,NA,NA,NA
+K01203,Galactose metabolism,NA,NA,NA,0,0,0
+K17229,Sulfur metabolism,0,0,0,NA,NA,NA
+K17229,Sulfur metabolism,NA,NA,NA,202,852,40
+K12571,RNA degradation,1474,1282,1700,NA,NA,NA
+K12571,RNA degradation,NA,NA,NA,19,1,2
+K11839,Mitophagy - animal,3873,4232,5,NA,NA,NA
+K11839,Mitophagy - animal,NA,NA,NA,0,0,0
+K10537,ABC transporters,13,23,4,NA,NA,NA
+K10537,ABC transporters,NA,NA,NA,167,305,558
+K15379,Transcriptional misregulation in cancer,0,2261,24788,NA,NA,NA
+K15379,Transcriptional misregulation in cancer,NA,NA,NA,3,2,0
+K18060,Spastic ataxia,1327,782,371,NA,NA,NA
+K18060,Spastic ataxia,NA,NA,NA,0,1,0
+K13515,Glycerophospholipid metabolism,5115,243,1009,NA,NA,NA
+K13515,Glycerophospholipid metabolism,NA,NA,NA,0,4,0
+K02677,EGFR tyrosine kinase inhibitor resistance,932,2155,1372,NA,NA,NA
+K02677,EGFR tyrosine kinase inhibitor resistance,NA,NA,NA,6,0,0
+K11180,Nitrotoluene degradation,122,141,193,NA,NA,NA
+K11180,Nitrotoluene degradation,NA,NA,NA,1813,423,1011
+K00368,Nitrogen metabolism,0,0,0,NA,NA,NA
+K00368,Nitrogen metabolism,NA,NA,NA,847,40,159
+K11423,Lysine degradation,9119,5900,2719,NA,NA,NA
+K11423,Lysine degradation,NA,NA,NA,9,60,0
+K05725,Endocrine resistance,6090,346,1526,NA,NA,NA
+K05725,Endocrine resistance,NA,NA,NA,0,4,6
+K05857,Inositol phosphate metabolism,1941,577,767,NA,NA,NA
+K05857,Inositol phosphate metabolism,NA,NA,NA,7,2,0
+K14990,Glutamatergic synapse,6557,753,19,NA,NA,NA
+K14990,Glutamatergic synapse,NA,NA,NA,0,0,1
+K19591,Multidrug resistance,50595,60713,29060,NA,NA,NA
+K19591,Multidrug resistance,NA,NA,NA,3703,3789,3298
+K01110,Inositol phosphate metabolism,1402,2257,1169,NA,NA,NA
+K01110,Inositol phosphate metabolism,NA,NA,NA,35,16,2
+K02884,Ribosome,62020,62087,55067,NA,NA,NA
+K02884,Ribosome,NA,NA,NA,63374,65647,28849
+K15018,Carbon fixation pathways in prokaryotes,10,8971,2727,NA,NA,NA
+K15018,Carbon fixation pathways in prokaryotes,NA,NA,NA,4,0,0
+K14007,Protein processing in endoplasmic reticulum,7419,2716,1606,NA,NA,NA
+K14007,Protein processing in endoplasmic reticulum,NA,NA,NA,79,74,6
+K04440,Endocrine resistance,13814,561,32,NA,NA,NA
+K04440,Endocrine resistance,NA,NA,NA,5,0,0
+K18270,Warburg micro syndrome,1013,3532,1212,NA,NA,NA
+K18270,Warburg micro syndrome,NA,NA,NA,8,0,0
+K17700,Rap1 signaling pathway,22,614,4968,NA,NA,NA
+K17700,Rap1 signaling pathway,NA,NA,NA,2,1,0

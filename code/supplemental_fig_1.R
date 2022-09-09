@@ -7,9 +7,6 @@ df <- read_excel("data/MG_MT_results_summary.xlsx")
 
 
 test <- cor.test(df$size.binner, df$genes)  # cor: 0.924, p < 2.2e-16
-str(test)
-test$p.value
-test$estimate
 
 df %>% 
   select(classification...16 ,size.binner, genes ) %>% 

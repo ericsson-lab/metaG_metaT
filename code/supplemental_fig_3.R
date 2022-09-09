@@ -3,76 +3,8 @@ library(NatParksPalettes)
 library(janitor)
 library(patchwork)
 
-
-# merged_euks_abundance <- read_tsv(file = "data/eukaryotes/merged_eukaryote_abundances.txt")
 merged_euks_abundance_all <- read_tsv(file = "data/eukaryotes/merged_eukulele_all_abundances.txt") %>% 
   clean_names()
-
-head(merged_euks_abundance_all)
-
-taxon_long_all <- merged_euks_abundance_all %>% 
-  pivot_longer(-full_classification,
-               names_to = "sample",
-               values_to = "counts") %>% 
-  mutate(gm = case_when(str_detect(string = sample,
-                                   pattern = "gm1") ~ "GM1",
-                        str_detect(string = sample,
-                                   pattern = "gm4") ~ "GM4")) %>% 
-  separate(full_classification,
-           into = c("Domain", "Supergroup", "Phylum", "Class", "Order", "Family", "Genus", "Species"),
-           sep = ";",
-           fill = "warn") %>% 
-  pivot_longer(-c(sample, counts, gm),
-               names_to = "level",
-               values_to = "taxon") %>% 
-  mutate(taxon = str_replace_all(taxon, " ", ""))
-
-
-taxon_long_all %>% 
-  filter(level == "Domain") %>% 
-  group_by(taxon, sample, gm) %>% 
-  summarize(counts = sum(counts, na.rm = T)) %>% 
-  group_by(sample) %>% 
-  mutate(rel_abund = counts/sum(counts)) %>% 
-  ggplot(aes(x = sample, 
-             y = factor(taxon, levels = c("Bacteria", "Archaea", "Eukaryota")), 
-             fill = rel_abund*100)) +
-  geom_tile() +
-  facet_wrap(~gm, scales = "free_x") +
-  scale_fill_gradientn(colors=natparks.pals("Arches2"),
-                       trans = "reverse",
-                       na.value = "#F3DAE4") +
-  scale_x_discrete(expand = c(0,0)) +
-  scale_y_discrete(expand = c(0,0)) +
-  theme_bw() +
-  
-  theme(axis.text = element_text(face = "bold",
-                                 color = "black"),
-        axis.text.x = element_blank(),
-        axis.title = element_blank(),
-        axis.ticks = element_blank(),
-        panel.spacing = unit(0.001, "lines"),
-        strip.background  = element_rect(color = "black",
-                                         fill = "#b6baba"),
-        strip.text = element_text(face = "bold",
-                                  color = "black", 
-                                  size = 12),
-        legend.title = element_text(face = "bold",
-                                    color = "black",
-                                    size = 10),
-        legend.text = element_text(face = "bold",
-                                   color = "black"),
-        legend.position = "right")  +
-
-  guides(fill = guide_colorbar(reverse = T,
-                               ticks.colour = NA))
-
-ggsave("plots/domain_rel_abund.png",
-       dpi = 600,
-       width = 4,
-       height = 2,
-       units = c("in"),
-       bg = "white")
 
 taxon_long <- merged_euks_abundance_all %>% 
   pivot_longer(-full_classification,
@@ -92,7 +24,6 @@ taxon_long <- merged_euks_abundance_all %>%
                names_to = "level",
                values_to = "taxon") %>% 
   mutate(taxon = str_replace_all(taxon, " ", ""))
-
 
 
 rel_abund_table <- taxon_long %>% 
@@ -115,7 +46,7 @@ taxon_pool <- phylum_table %>%
   summarise(pool = max(rel_abund) < 0.01, .groups = 'drop')
 
 
-b <- inner_join(phylum_table, taxon_pool, by = "taxon") %>% 
+inner_join(phylum_table, taxon_pool, by = "taxon") %>% 
   mutate(taxon = if_else(pool, "Other", taxon)) %>% 
   group_by(sample, taxon, gm) %>% 
   summarise(rel_abund = sum(rel_abund)) %>% 
@@ -164,59 +95,10 @@ b <- inner_join(phylum_table, taxon_pool, by = "taxon") %>%
                                ticks.colour = NA))
 
 
-b
 
 ggsave("plots/euk_rel_abund_phylum.png",
        width = 4,
        height = 3,
        units = c("in"),
        bg = "white")
-
-taxon_long %>% 
-  
-  filter()
-phylum_table %>% 
-  filter(taxon == "Fungi") %>% 
-  mutate(rel_abund = rel_abund*100)
-# ggsave("plots/euk_rel_abund_phylum.png",
-
-# 
-taxon_wide <- merged_euks_abundance_all %>% 
-  pivot_longer(-full_classification,
-               names_to = "sample",
-               values_to = "counts") %>% 
-  filter(str_detect(string = full_classification,
-                    pattern = "Eukaryota;")) %>% 
-  mutate(gm = case_when(str_detect(string = sample,
-                                   pattern = "gm1") ~ "GM1",
-                        str_detect(string = sample,
-                                   pattern = "gm4") ~ "GM4")) %>% 
-  separate(full_classification,
-           into = c("Domain", "Supergroup", "Phylum", "Class", "Order", "Family", "Genus", "Species"),
-           sep = ";",
-           fill = "warn")
-
-taxon_wide %>% 
-  filter(Phylum == " Fungi") %>% 
-  print(n=30)
-
-taxon_wide %>% 
-  group_by(Phylum) %>% 
-  rstatix::wilcox_test(counts ~ gm) %>% 
-  filter(p<0.05)
-
-taxon_wide %>% 
-  group_by(Phylum, gm) %>%
-  summarize(mean = mean(counts)) %>% 
-  arrange(mean) %>% 
-  print(n=40)
-  
-taxon_wide %>% 
-  filter(Phylum == " Fungi") %>% 
-  pull(Order)
-colnames(taxon_wide)
-  
-  filter(Phylum == " Ochrophyta") %>% 
-  arrange(desc(counts)) %>% 
-  pull(Class)
 

@@ -1,0 +1,49 @@
+pathway
+Warburg micro syndrome
+Transcriptional misregulation in cancer
+Toll and Imd signaling pathway
+Taste transduction
+Syndromic neurodevelopmental disorder
+Spliceosome
+Spinocerebellar ataxia
+Sphingolipid signaling pathway
+Spastic ataxia
+Salivary secretion
+Ribosome biogenesis in eukaryotes
+Regulation of lipolysis in adipocytes
+Rap1 signaling pathway
+Protein processing in endoplasmic reticulum
+Proteasome
+Porphyrin metabolism
+Platinum drug resistance
+Photosynthesis - antenna proteins
+Pertussis
+Osteopetrosis
+Nucleocytoplasmic transport
+Nitrotoluene degradation
+NF-kappa B signaling pathway
+Neuroactive ligand-receptor interaction
+Necroptosis
+Mitophagy - yeast
+Mitophagy - animal
+MAPK signaling pathway - yeast
+MAPK signaling pathway - fly
+MAPK signaling pathway
+Lysosome
+Human T-cell leukemia virus 1 infection
+Hippo signaling pathway - fly
+Hepatocellular carcinoma
+Hedgehog signaling pathway
+Glutaric acidemia
+Glutamatergic synapse
+GABAergic synapse
+Fanconi anemia pathway
+Estrogen signaling pathway
+Endocytosis
+Endocrine resistance
+EGFR tyrosine kinase inhibitor resistance
+Cytokine-cytokine receptor interaction
+Congenital disorders of glycosylation type I
+Circadian rhythm
+Cell cycle
+Axon guidance

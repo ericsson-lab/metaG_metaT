@@ -7,10 +7,8 @@ library(EnhancedVolcano)
 library(cowplot)
 
 df_25 <- read_csv("./data/kegg/KEGGREST_metaT_significant_pathways_top25.csv")
-# df_volcano <- read_csv("./data/kegg/KEGGREST_metaT_significant_pathways_volcano.csv")
-# df_all <- read_csv("./data/kegg/KEGGREST_metaT_significant_pathways_all.csv")
 
-pathways_for_supp <- read_delim("data/normalized/data/select_sig_to_omit_pathways.txt",
+pathways_for_supp <- read_delim("data/select_sig_to_omit_pathways.txt",
                                 delim = "\n")
 
 
@@ -27,25 +25,12 @@ process_data <- function(df){
                                      pattern = "GM1") ~ "GM1",
                           str_detect(string = sample,
                                      pattern = "GM4") ~ "GM4")) %>% 
-    group_by(gm, pathways) #%>% 
-    # summarize(mean_count = mean(count),
-    #           sd_count = sd(count)) %>% 
-    # mutate(log10_mean_count = log10(mean_count),
-    #        log10_sd_count = log10(sd_count)
-    #)
+    group_by(gm, pathways) 
 }
 
 data_top25 <- process_data(df_25)
 
-# length(unique(data_all$pathways)) # 216 pathways
 length(unique(data_top25$pathways)) # 92 pathways
-# length(unique(data_volcano$pathways)) # 84 pathways
-
-# select_pathways <- read_delim("data/kegg/select_sig_pathways.txt",
-#                               delim = "\n")
-
-
-
 
 a <- data_top25 %>% 
   filter(!pathways %in% pathways_for_supp$pathway) %>% 
@@ -92,6 +77,8 @@ a
 #        bg = "white",
 #        dpi = 600)
 
+
+### Supplemental Figure 2
 b <- data_top25 %>% 
   filter(pathways %in% pathways_for_supp$pathway) %>% 
   ggplot( aes(x = sample, 
@@ -228,6 +215,8 @@ cazy_volcano <- EnhancedVolcano(cazy,
               theme(legend.position = "none"))
 cazy_volcano
 
+
+## Figure 5
 
 a + (kegg_volcano/pfam_volcano/cazy_volcano)
 
